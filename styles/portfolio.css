@@ -9,23 +9,34 @@
   }
 
   .btn{
+    /*body btn*/
     background-color: #30B868;
+    display:  flex;
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
     font-size: 25px;
     font-weight: bold;
     color: #FFFFFF;
-
+    cursor: pointer;
   }
-  header{
-    background-color: #FFFFFF;
-    padding-top: 50px;
-  }
+ 
+#banner{
+  /*background-color: #FFFFFF;*/
+   background-image: url("../assets/hero-bg.png");
+   background-repeat: no-repeat;
+   background: cover ;
+   text-align: center;
+  
+    }
 
+  .logo{
+    font-size: 45px;
+    font-weight: 500;
+  }
+  
   nav{
-    width: 71%;
-    max-width: 1140px;
+  /*border: 1px solid red;*/
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -43,3 +54,51 @@
     color:#000000;
     text-decoration: none;
   }
+
+  #banner {
+  border: 1px solid chartreuse;
+  margin: 47px auto ;
+  padding:100px 400px 100px ; 
+  align-items: center;
+  }
+
+  #banner .banner-content{
+max-width: 585px;
+margin: auto;
+
+}
+
+  #banner .banner-content h4{
+   font-size: 10px;
+   font: 400;
+   color: #30B868;
+   margin-bottom: 10px;
+
+  }
+  #banner .banner-content h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #30B868;
+    margin-bottom: 20px;
+    
+ }
+
+ #banner .banner-content p{
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 30px;
+  margin-bottom: 30px;
+ }
+
+ #notes{
+  padding: 130px;
+ }
+
+ #notes .Notes-conteiner{
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 44px;
+  text-align: center;
+  padding: 100px 158px;
+ }
+ 
